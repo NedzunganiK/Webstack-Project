@@ -44,7 +44,8 @@ npm install
 ```
 PORT=5000
 MONGO_URI=your_mongodb_connection_string_here
-JWT_SECRET=your_jwt_secret_here
+JWT_SECRET=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEyMzQ1Njc4OSIsIm5hbWUiOiJLaG9uYW5pIiwiZXhwIjo5OTk5OTk5OTk5fQ.e6pmC2d6EAxgpoYY2sgTG5Fwxnhrz3MTDHG1SZp3Ce4
+
 ```
 
 ### 4. Start the Server
