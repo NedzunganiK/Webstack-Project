@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9fafb;
+  color: #333;
+  margin: 0;
+}
+
+/* Header Styling */
+header {
+  background-color: #ff7f00; /* Orange */
+  color: white;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+/* Button styles */
+.btn {
+  @apply px-4 py-2 rounded-lg text-white font-semibold transition-all;
+  background-color: #ff7f00; /* Primary Orange */
+}
+
+.btn:hover {
+  background-color: #e67300; /* Darker Orange */
+}
+
+/* Card Styles */
+.card {
+  @apply p-6 rounded-lg shadow-lg;
+  background-color: white;
+  border-left: 4px solid #ff7f00;
+}
+
+/* Input Fields */
+input, textarea {
+  @apply w-full p-2 border-2 rounded-lg focus:outline-none transition-all;
+  border-color: #ff7f00;
+}
+
+input:focus, textarea:focus {
+  border-color: #e67300;
+}
+
+/* Links */
+a {
+  @apply font-semibold transition-all;
+  color: #ff7f00;
+}
+
+a:hover {
+  color: #e67300;
+}
+
